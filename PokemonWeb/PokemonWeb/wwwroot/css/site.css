@@ -1,0 +1,51 @@
+
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.8), 0 0 0 0.35rem #008080;
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 60px;
+    background-color: #e0f7fa; 
+    font-family: Arial, sans-serif;
+}
+
+.btn,
+.btn-link.nav-link,
+.form-control,
+.form-check-input {
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .btn:hover,
+    .btn-link.nav-link:hover,
+    .form-control:hover,
+    .form-check-input:hover {
+        border-color: #ff6f61;
+        box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); 
+    }
+
+.form-control {
+    border: 1px solid #008080; 
+}
